@@ -16,3 +16,21 @@ Description: naisdevice is a mechanism enabling NAVs developers to connect to in
 License: unknown
 Vendor: NAV / nais team
 
+Package: naisdevice
+Version: 2021-05-18-191227
+Architecture: amd64
+Maintainer: NAV / nais team
+Installed-Size: 29379
+Depends: jq, sed, wireguard, libnss3-tools
+Filename: ./naisdevice-2021-05-18-191227.deb
+Size: 11186706
+MD5sum: 69988352b0d5c32a16b09461242f34af
+SHA1: 15e2888558cfa9d31c629c242c04ec8575a110aa
+SHA256: 2504a9fa17dd762fbb90d7b7d3ac98877e49d20dba48fb4cf6c1fc57818fde32
+Section: default
+Priority: extra
+Homepage: https://doc.nais.io/device
+Description: naisdevice is a mechanism enabling NAVs developers to connect to internal resources in a secure and friendly manner.
+License: unknown
+Vendor: NAV / nais team
+
