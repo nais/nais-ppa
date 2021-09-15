@@ -5,7 +5,7 @@ set -o nounset   # abort on unbound variable
 set -o pipefail  # pipeline returns last non-zero status
 
 # 'Unpack' deb file for PPA purposes
-dpkg-scanpackages --multiversion . > Packages
+apt-ftparchive packages . > Packages
 gzip -k -f Packages
 apt-ftparchive release . > Release
 
