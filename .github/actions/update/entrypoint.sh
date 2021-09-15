@@ -11,6 +11,7 @@ apt-ftparchive release . > Release
 
 # Set-up GPG
 mkdir -p ~/.gnupg
+chmod u=rwx,g=,o= ~/.gnupg
 echo "use-agent" >> ~/.gnupg/gpg.conf
 echo "pinentry-mode loopback" >> ~/.gnupg/gpg.conf
 echo "allow-loopback-pinentry" >> ~/.gnupg/gpg-agent.conf
