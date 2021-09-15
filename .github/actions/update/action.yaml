@@ -4,25 +4,15 @@ name: Add package to nais-ppa
 description: Add a deb package to the nais-ppa
 
 inputs:
-  url:
-    description: "URL to the deb package to add"
-    required: true
-  basename:
-    description: "basename of the deb file after adding"
-    required: true
   repo_key:
     description: "SSH key with push access to the PPA-repo"
-    required: true
+    required: false
   gpg_private_key:
     description: "GPG key for signing the PPA"
     required: true
   gpg_passphrase:
     description: "GPG passphrase for above key"
     required: true
-  email:
-    description: "email for GPG and commit"
-    required: false
-    default: aura@nav.no
 
 
 # definition how we want our action
@@ -30,9 +20,6 @@ runs:
   using: docker # we are saying this action will run on docker
   image: 'Dockerfile' # we will use our own Dockerfile to build an image and run it.
   env:
-    URL: "${{ inputs.url }}"
-    BASENAME: "${{ inputs.basename }}"
     REPO_KEY: "${{ inputs.repo_key }}"
     GPG_PRIVATE_KEY: "${{ inputs.gpg_private_key }}"
     GPG_PASSPHRASE: "${{ inputs.gpg_passphrase }}"
-    EMAIL: "${{ inputs.email }}"
