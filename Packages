@@ -463,6 +463,21 @@ Homepage: https://github.com/nais/nais-cli
 Description: Simple Aiven Kafka Debug Cli
 Vendor: NAV / nais team
 
+Package: nais
+Architecture: amd64
+Version: 1.20211015093941.0+git
+Maintainer: NAV / nais team
+Installed-Size: 28580
+Filename: ./nais_1.20211015093941.deb
+Size: 8886420
+MD5sum: ce8b26ac81f61a6d0d3557fd53644084
+SHA1: 696471a6fc09cae944160e069fd52396523bc9b7
+SHA256: 971b5ae18c124b5381447fdd23eea6b4874a4336c8e07f656153e3fd5c1418e4
+SHA512: ba392f9db8f21f3cc6f377ff578611b732e8c022bd80a5a34fe9d3eba20d2f2d910965077ad2c1324fbeee232afb3a6ffe2c4a1c9fa86d9260cfc7dd1b0a57f9
+Homepage: https://github.com/nais/cli
+Description: Simple Aiven Kafka Debug Cli
+Vendor: NAV / nais team
+
 Package: naisdevice
 Architecture: amd64
 Version: 2021-05-11-145715
