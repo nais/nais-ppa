@@ -677,6 +677,22 @@ Homepage: https://github.com/nais/cli
 Description: A NAIS command-line interface
 Vendor: NAV / nais team
 
+Package: nais
+Architecture: amd64
+Version: 1.20211123122009.0+git
+Priority: optional
+Maintainer: NAV / nais team
+Installed-Size: 30072
+Filename: ./nais_1.20211123122009.deb
+Size: 9434096
+MD5sum: 587242ef3425664f0fedb98bcd5ef15e
+SHA1: 97d6d6337271b8bd86dbc4d6683e931c00940976
+SHA256: 79c4a08f3d30070b1fcfeb65ad6d278896780637482b068e4965806e4e853bf5
+SHA512: f2032d88e1b4f55eabab79925e26ea065b123212970501512b2969534a9bde217eadaa7358dc0268745300085b734d54097996993a7087fc3fc44f6d8d388591
+Homepage: https://github.com/nais/cli
+Description: NAIS command-line interface
+Vendor: NAV / nais team
+
 Package: naisdevice
 Architecture: amd64
 Version: 2021-05-11-145715
