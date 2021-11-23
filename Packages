@@ -709,6 +709,22 @@ Homepage: https://github.com/nais/cli
 Description: command-line interface for NAIS
 Vendor: NAV / nais team
 
+Package: nais
+Architecture: amd64
+Version: 1.20211123141433.0+git
+Priority: optional
+Maintainer: NAV / nais team
+Installed-Size: 30072
+Filename: ./nais_1.20211123141433.deb
+Size: 9434106
+MD5sum: 82a93af5a4990fd001fb68b72c9a4f8f
+SHA1: 550a78610d608447ee1a06faffac8a678d5d5d6c
+SHA256: 2dcf02a4bb2ea533023e4e9b68ab7f7c0e4498a9f4ee4d7f0d0c5fdda13d9356
+SHA512: 92259bcd8d72c004e4cdd0cf220edbfd311f739f0c156286b3665bf7ed61934392669378500d9643b1f3894feea500a4932c47a061eaba22f7ac58e57c445553
+Homepage: https://github.com/nais/cli
+Description: Command-line interface for NAIS
+Vendor: NAV / nais team
+
 Package: naisdevice
 Architecture: amd64
 Version: 2021-05-11-145715
@@ -1825,6 +1841,25 @@ MD5sum: 5b0febf3a33b0ee9a3e7393759d09131
 SHA1: 6a521e849439bd9a13dd7bee111b09b019195109
 SHA256: d2580ae4ab03e80266108e8adece45822fe72d21722df1ff90ef4947cb3093d2
 SHA512: 4fc6e8caa1711e18028240b8ef7262f8b21de8917e2cc79501f8b1e1374dad0d6ac6ab477f08eabce60648bb40d8e09408a8e0cf30cc4bd64438e6f08e6a6133
+Homepage: https://doc.nais.io/device
+Description: naisdevice is a mechanism enabling NAVs developers to connect to internal resources in a secure and friendly manner.
+License: unknown
+Vendor: NAV / nais team
+
+Package: naisdevice
+Architecture: amd64
+Version: 2021-11-23-141307
+Priority: extra
+Section: default
+Maintainer: NAV / nais team
+Installed-Size: 29226
+Depends: jq, sed, wireguard, libnss3-tools, openssl
+Filename: ./naisdevice-2021-11-23-141307.deb
+Size: 11218116
+MD5sum: 210fdb5ebc2a5b54d5a297a9d5604657
+SHA1: c0ce120450e3a1ca6d2b7ecb54d2a9d854e61fa0
+SHA256: 6dccd9cee768e1381dfe09d7a738e44c7fd09a15b1c458482289d55ea69a36ef
+SHA512: 2b23fb4d66d032c9a5ddc5f2fefc59cfda0a37554b5647ed7716e0bfcd89f623827b5e0e9ac927b9fc4e86eb17cd355fec7fbffae3175534164ca9d9b7ae28a2
 Homepage: https://doc.nais.io/device
 Description: naisdevice is a mechanism enabling NAVs developers to connect to internal resources in a secure and friendly manner.
 License: unknown
