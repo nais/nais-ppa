@@ -1,21 +1,5 @@
 Package: nais
 Architecture: amd64
-Version: 1.20211116200114.0+git
-Priority: optional
-Maintainer: NAV / nais team
-Installed-Size: 30072
-Filename: ./nais_1.20211116200114.deb
-Size: 9434070
-MD5sum: 0a184d1e07201da683821065a4585ca7
-SHA1: 7faca2ed15cf1d343332cdc7823b7afd4763bf85
-SHA256: 573532401b0cdb30b20a345f8fc8a55ae5b119e9954da6fa1ce6add4003a68b8
-SHA512: f7e62089fe176d9affb6c987e7ef07bdfb31e300fd810a1f3acf49e6535f8477bea9108d56aca6a66ae970ca2b49cdfae46bab57aa960fc76172dd52aaf442f5
-Homepage: https://github.com/nais/cli
-Description: Simple Aiven Kafka Debug Cli
-Vendor: NAV / nais team
-
-Package: nais
-Architecture: amd64
 Version: 1.20211118073625.0+git
 Priority: optional
 Maintainer: NAV / nais team
@@ -154,6 +138,22 @@ MD5sum: a13e229ebc221b4aaf88d1b5e83cbd14
 SHA1: 8c5d38d9c14b22270d2b4843844f5f093e895d74
 SHA256: 3ce0f78c552b18388d7ccb286262110301c83f621bb5f3877ddd4338c091182b
 SHA512: 4e4ec053a878d37ca285e410f604debd2f11ae68b64775859ecc2a28576582449be07dee8789cbaa1128d84b47f539957f060a1b3081438d94f828fc25b1eea9
+Homepage: https://github.com/nais/cli
+Description: Command-line interface for NAIS
+Vendor: NAV / nais team
+
+Package: nais
+Architecture: amd64
+Version: 1.20220203134139.0+git
+Priority: optional
+Maintainer: NAV / nais team
+Installed-Size: 36808
+Filename: ./nais_1.20220203134139.deb
+Size: 10997854
+MD5sum: 84c57d8b02220150af63d4e7107addad
+SHA1: 47691c2f60c823053eb465abaefca18595e0c005
+SHA256: 7c1c0cbdd9c4dd5b15e77ccc50c6c73247212bdf53127b7aa72d92c31f44b75b
+SHA512: 126a89d73f0a04b30dae18e8726055af835f4483d235c284e9d7a47a76f941074b36cf9bfa0e29096e7b98b31f3266682634e9fe2110de97fb7b907d094b1ba7
 Homepage: https://github.com/nais/cli
 Description: Command-line interface for NAIS
 Vendor: NAV / nais team
