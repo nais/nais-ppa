@@ -28,4 +28,4 @@ jobs:
       - name: 'Upload zoom deb file to repository'
         run: |
           curl -L https://zoom.us/client/latest/zoom_amd64.deb -o zoom.deb
-          gcloud --project nais-ppa beta artifacts apt upload nais-ppa --source zoom.deb --location europe-north1
+          gcloud --project nais-ppa beta artifacts apt upload nais-ppa --quiet --source zoom.deb --location europe-north1
