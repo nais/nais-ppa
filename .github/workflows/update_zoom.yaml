@@ -1,4 +1,4 @@
-name: Build and push charts
+name: Upload zoom deb
 on:
   workflow_dispatch: {}
   schedule:
