@@ -77,8 +77,8 @@ resource "google_artifact_registry_repository" "nais_ppa" {
   provider = google-beta
 
   location      = "europe-north1"
-  repository_id = "controlplane"
-  description   = "naisdevice controlplane"
+  repository_id = "zoom"
+  description   = "zoom.us deb, updated daily"
   format        = "apt"
 }
 
