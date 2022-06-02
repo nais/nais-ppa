@@ -7,6 +7,8 @@ set -o pipefail  # pipeline returns last non-zero status
 # For debugging
 echo Contents of working directory ${PWD}:
 ls -la
+echo Contents of git directory ${PWD}/.git:
+ls -la .git/
 
 
 echo --- 'Unpack' deb file for PPA purposes

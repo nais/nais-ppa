@@ -9,6 +9,9 @@ NUMBER_TO_KEEP=10
 # For debugging
 echo Contents of working directory ${PWD}:
 ls -la
+echo Contents of git directory ${PWD}/.git:
+ls -la .git/
+
 
 echo --- Removing old files
 for name in 'naisdevice-*.deb' 'nais_*.deb'; do
