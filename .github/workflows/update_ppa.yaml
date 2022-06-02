@@ -13,8 +13,9 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - name: Cleanup old versions
-        uses: ./.github/actions/cleanup
+      # fix me! midlertidig hack for å fikse publisering
+      #- name: Cleanup old versions
+      #  uses: ./.github/actions/cleanup
       - name: Update PPA
         uses: ./.github/actions/update
         with:
