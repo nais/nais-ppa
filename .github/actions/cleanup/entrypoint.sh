@@ -21,7 +21,7 @@ if ! git diff --staged --quiet; then
   git config --global user.name "nais-ppa cleanup action"
   git add .
   git --no-pager diff --cached
-  git commit -a -m "Update metadata"
+  git commit -a -m "Remove old versions"
   git push
 else
   echo --- No changes to commit
