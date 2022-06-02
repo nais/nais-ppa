@@ -18,10 +18,12 @@ for name in 'naisdevice-*.deb' 'nais_*.deb'; do
   printf "%s\n" ${name} | head -n "-${NUMBER_TO_KEEP}" | xargs --no-run-if-empty --verbose git rm
 done
 
+echo --- Check for changes to commit
+git config --global --add safe.directory /github/workspace
 if ! git diff --staged --quiet; then
   echo --- Commit and push changes
-  git config user.email "aura@nav.no"
-  git config user.name "nais-ppa cleanup action"
+  git config --global user.email "aura@nav.no"
+  git config --global user.name "nais-ppa cleanup action"
   git add .
   git --no-pager diff --cached
   git commit -a -m "Update metadata"

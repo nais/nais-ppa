@@ -30,6 +30,7 @@ echo ${GPG_PASSPHRASE} | gpg --batch --no-tty --pinentry-mode=loopback --yes --p
 echo ${GPG_PASSPHRASE} | gpg --batch --no-tty --pinentry-mode=loopback --yes --passphrase-fd 0 --default-key "aura@nav.no" --clearsign -o - Release > InRelease
 
 echo --- Commit and push changes
+git config --global --add safe.directory /github/workspace
 git config --global user.email "aura@nav.no"
 git config --global user.name "nais-ppa update action"
 git add .
