@@ -30,8 +30,8 @@ echo ${GPG_PASSPHRASE} | gpg --batch --no-tty --pinentry-mode=loopback --yes --p
 echo ${GPG_PASSPHRASE} | gpg --batch --no-tty --pinentry-mode=loopback --yes --passphrase-fd 0 --default-key "aura@nav.no" --clearsign -o - Release > InRelease
 
 echo --- Commit and push changes
-git config user.email "aura@nav.no"
-git config user.name "nais-ppa update action"
+git config --global user.email "aura@nav.no"
+git config --global user.name "nais-ppa update action"
 git add .
 git --no-pager diff --cached
 git commit -a -m "Update metadata"
