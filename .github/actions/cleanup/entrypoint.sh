@@ -6,6 +6,8 @@ set -o pipefail  # pipeline returns last non-zero status
 
 NUMBER_TO_KEEP=10
 
+echo --- Make ${PWD} safe for git
+git config --global --add safe.directory /github/workspace
 
 echo --- Removing old files
 for name in 'naisdevice-*.deb' 'nais_*.deb'; do
@@ -13,7 +15,6 @@ for name in 'naisdevice-*.deb' 'nais_*.deb'; do
 done
 
 echo --- Check for changes to commit
-git config --global --add safe.directory /github/workspace
 if ! git diff --staged --quiet; then
   echo --- Commit and push changes
   git config --global user.email "aura@nav.no"
