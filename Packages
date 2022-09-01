@@ -1,20 +1,5 @@
 Package: nais
 Architecture: amd64
-Version: 1.20220705082829.0+git
-Priority: optional
-Maintainer: NAV / nais team
-Installed-Size: 38084
-Filename: ./nais_1.20220705082829.deb
-Size: 11880630
-MD5sum: e171a82e17bed80dc4b93ec172bb0478
-SHA1: 1bbb854be058970aa245e0ae17f306aed3e11826
-SHA256: 344fda4052aee12bdd22dda816e4b16000b62a0ed9636fb4219c166cf933f73b
-SHA512: 9a183098eaaae8718b686d00da6fb0394ae2375e9529c5ddfcf8cd4ffdd4725bf803c68efb21b8ae0a9fe57b72531ac250c704039eb1500c302c3dcb853cabfc
-Homepage: https://github.com/nais/cli
-Description: Command-line interface for NAIS
-
-Package: nais
-Architecture: amd64
 Version: 1.20220706081810.0+git
 Priority: optional
 Maintainer: NAV / nais team
@@ -145,6 +130,21 @@ MD5sum: 03014a980b910069e48c5739772217de
 SHA1: 3b6a81e03a7987ac1f900fcd1106deb37624dc5e
 SHA256: f3c7ed7a1b0186c151cc913bef5ccdd18f3b82100d18aaefe4ae2aafd094a62c
 SHA512: 4e0660fe7cf09c5ca8edfc9e4110669419ffd8596929d473f7b55045fe6221409ece00bc5256523bd9396e03d2bfa1d460f88327627d264789334ee5b5ba51a1
+Homepage: https://github.com/nais/cli
+Description: Command-line interface for NAIS
+
+Package: nais
+Architecture: amd64
+Version: 1.20220901070756.0+git
+Priority: optional
+Maintainer: NAV / nais team
+Installed-Size: 38324
+Filename: ./nais_1.20220901070756.deb
+Size: 11958086
+MD5sum: 86d78b89b18c50e54b1c24bc22235b14
+SHA1: f0fa7c67074d21df81b1c0c94217ad0660cc7222
+SHA256: c405760b1dac7a41e52b7cc85e9c9d13818c81ea21b3e8abdd214ed34c0accd5
+SHA512: d851ef9d4de02172bfd2f973a888d50530ec148bf637a1fae1607faec15c1f3f71163f44fb0f66a53cecdae8fb464c90a31a135023d2a68c5917d3b6ee350097
 Homepage: https://github.com/nais/cli
 Description: Command-line interface for NAIS
 
