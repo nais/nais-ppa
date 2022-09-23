@@ -150,44 +150,6 @@ Description: Command-line interface for NAIS
 
 Package: naisdevice
 Architecture: amd64
-Version: 2022-06-30-125810
-Priority: extra
-Section: default
-Maintainer: NAV / nais team
-Installed-Size: 32173
-Depends: jq, sed, wireguard, libnss3-tools, openssl, libayatana-appindicator3-1
-Filename: ./naisdevice-2022-06-30-125810.deb
-Size: 12800012
-MD5sum: ca77d743430e250ce4dc5ab6e8ddf674
-SHA1: 0097f2f360002723f778804dad5cdd54e402c5f1
-SHA256: 9ea85c445fa2e29821f027754f83073c2f325d9cf711b1d3206109249308ee50
-SHA512: c505b449bf8d1da35d9343d82e34a50343d8fe205420e163c624ac954c66d802bc0671d6fe712cec35708320e7c34308ceeb886c0444aeeabb00cbf2548bc143
-Homepage: https://doc.nais.io/device
-Description: naisdevice is a mechanism enabling NAVs developers to connect to internal resources in a secure and friendly manner.
-License: unknown
-Vendor: NAV / nais team
-
-Package: naisdevice
-Architecture: amd64
-Version: 2022-08-09-114238
-Priority: extra
-Section: default
-Maintainer: NAV / nais team
-Installed-Size: 33157
-Depends: jq, sed, wireguard, libnss3-tools, openssl, libayatana-appindicator3-1
-Filename: ./naisdevice-2022-08-09-114238.deb
-Size: 13115346
-MD5sum: 21b4da46ed195fa4e4739a769d8c70b0
-SHA1: 944b90cf0de068e9d61b3b57facd16638c10df2f
-SHA256: e814516dcf627941a55ce4ae81c799e0dfddceab496a7bbd8ec4df6f73a938e4
-SHA512: 3a419144882205d69ef1c200f1a75be5a1bfd9c52d596de2e19fdd004fd96f15ecf673973c06c05ed5a3b1cbbc8607c4efccb62c7704d5e6d0ecf5d6bce17669
-Homepage: https://doc.nais.io/device
-Description: naisdevice is a mechanism enabling NAVs developers to connect to internal resources in a secure and friendly manner.
-License: unknown
-Vendor: NAV / nais team
-
-Package: naisdevice
-Architecture: amd64
 Version: 2022-08-10-143549
 Priority: extra
 Section: default
@@ -264,6 +226,25 @@ Vendor: NAV / nais team
 
 Package: naisdevice
 Architecture: amd64
+Version: 2022-09-23-090728
+Priority: extra
+Section: default
+Maintainer: NAV / nais team
+Installed-Size: 33157
+Depends: jq, sed, wireguard, libnss3-tools, openssl, libayatana-appindicator3-1
+Filename: ./naisdevice-2022-09-23-090728.deb
+Size: 13120228
+MD5sum: 4eca98d8785e2f84dd868752acae3bb6
+SHA1: 13dad6f3f9b34e47f1888b89ccbc4170be253152
+SHA256: 5ac6bf9719c1f78de44b43fc9ac2b8e3ac847732d04f07b26d8a0bf2df446e7b
+SHA512: 919abfb81cf65315f698f8f41f0ddb62e0906849f41d291e977bc8d6faa0ff46f06e9cc75c27bfb96b313337c591ef71a45c7c04822145902ef4901a33a199ee
+Homepage: https://doc.nais.io/device
+Description: naisdevice is a mechanism enabling NAVs developers to connect to internal resources in a secure and friendly manner.
+License: unknown
+Vendor: NAV / nais team
+
+Package: naisdevice
+Architecture: amd64
 Version: 2022-08-10-143549
 Priority: extra
 Section: default
@@ -333,6 +314,25 @@ MD5sum: 8f00e23d3441088fc4fe94aa7224ab04
 SHA1: d8aa7d76e85a43229d6b132e8e447276c59e81e8
 SHA256: c0d1ff4f401573cc1366bd5fc59f8b828ec1e0500ca2c1ecf8f2cf8a5317d2e0
 SHA512: f499f5bc3548da49310b763a7d8f309525d6775d723ed20a95c2b0392116f035383f699c00082e3ff811f9f72e9b0ccee73368a00a48a33d190c8ca91252616d
+Homepage: https://doc.nais.io/device
+Description: naisdevice is a mechanism enabling NAVs developers to connect to internal resources in a secure and friendly manner.
+License: unknown
+Vendor: NAV / nais team
+
+Package: naisdevice
+Architecture: amd64
+Version: 2022-09-23-090728
+Priority: extra
+Section: default
+Maintainer: NAV / nais team
+Installed-Size: 33157
+Depends: jq, sed, wireguard, libnss3-tools, openssl, libayatana-appindicator3-1
+Filename: ./naisdevice-tenant-2022-09-23-090728.deb
+Size: 13119036
+MD5sum: 99b5e937d8469b36a5ec45cf6362002b
+SHA1: 0acf97eed2cb6347668d7742488ac2d51960d0bf
+SHA256: 2954b44b39221780653ac22f38d8354796578e5481ca4197f198f02115baf8a2
+SHA512: aa45835bb99a76dfdae854f0883ad7aa36eab9665451342004134b2845f6a96e62163045ce3813d66088cd7efe9b1f76af3c38b13ef02bd8fac1b8cf5afb30d5
 Homepage: https://doc.nais.io/device
 Description: naisdevice is a mechanism enabling NAVs developers to connect to internal resources in a secure and friendly manner.
 License: unknown
