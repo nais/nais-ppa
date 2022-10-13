@@ -10,7 +10,7 @@ echo --- Make ${PWD} safe for git
 git config --global --add safe.directory /github/workspace
 
 echo --- Removing old files
-for name in 'naisdevice-*.deb' 'nais_*.deb'; do
+for name in 'naisdevice-*-*-*-*.deb' 'naisdevice-tenant-*-*-*-*.deb' 'nais_*.deb'; do
   printf "%s\n" ${name} | head -n "-${NUMBER_TO_KEEP}" | xargs --no-run-if-empty --verbose git rm
 done
 
