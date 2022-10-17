@@ -3,6 +3,7 @@
 set -o errexit   # abort on nonzero exitstatus
 set -o nounset   # abort on unbound variable
 set -o pipefail  # pipeline returns last non-zero status
+shopt -s extglob
 
 NUMBER_TO_KEEP=10
 
@@ -10,7 +11,7 @@ echo --- Make ${PWD} safe for git
 git config --global --add safe.directory /github/workspace
 
 echo --- Removing old files
-for name in 'naisdevice-*-*-*-*.deb' 'naisdevice-tenant-*-*-*-*.deb' 'nais_*.deb'; do
+for name in 'naisdevice-!(tenant*)-*' 'naisdevice-tenant-*' 'nais_*.deb'; do
   printf "%s\n" ${name} | head -n "-${NUMBER_TO_KEEP}" | xargs --no-run-if-empty --verbose git rm
 done
 
