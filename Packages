@@ -528,3 +528,18 @@ Description: naisdevice is a mechanism enabling NAVs developers to connect to in
 License: unknown
 Vendor: NAV / nais team
 
+Package: narc
+Architecture: amd64
+Version: 1.20230630072434.0+git
+Priority: optional
+Maintainer: NAV / nais team
+Installed-Size: 17364
+Filename: ./narc_1.20230630072434.deb
+Size: 6882652
+MD5sum: 3217c5ca25329d3bb981c0103576363d
+SHA1: ace781aa8d68c128d3450191124242f1d9b1a89f
+SHA256: 63db282b4362b95dba62e42ed7717e77da1ae388e6ba75d88ea71f2aa2d35aa9
+SHA512: b31ad9a960b16ceb91260b3766e2e17f75bee5f5954703c62632cad5017a74aef5df06fbc6fb3d0d0cc0985e1552ff90239be6c0a0d8bb1eceae6f4272f896ef
+Homepage: https://github.com/nais/narcos
+Description: NAIS Administration CLI
+
