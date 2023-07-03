@@ -558,3 +558,18 @@ SHA512: 37dc5a7f5c583f1708e96f240b0530bda489691aefdad91fed470c6bd0e24e4e85afd335
 Homepage: https://github.com/nais/narcos
 Description: NAIS Administration CLI
 
+Package: narc
+Architecture: amd64
+Version: 1.20230703070352.0+git
+Priority: optional
+Maintainer: NAV / nais team
+Installed-Size: 17364
+Filename: ./narc_1.20230703070352.deb
+Size: 6882646
+MD5sum: 0995a10705d713be8d84ba67928777ca
+SHA1: fca9d583329cb073570d41498a8573d8ab6ad7ea
+SHA256: 8d38abe14882a888e7c8d9af322b1d5c6db1231a9e059d3c4cd7db02b1f03ba2
+SHA512: 8ad2a9747a522c04ee7ec405e10d7e6f0f2ec169416a84853d93697b221ac98de94d70f2391de1b70282cbfd336034b3333dfc1fdaaa211fa9db228000724d0d
+Homepage: https://github.com/nais/narcos
+Description: NAIS Administration CLI
+
