@@ -150,25 +150,6 @@ Description: Command-line interface for NAIS
 
 Package: naisdevice
 Architecture: amd64
-Version: 2023-01-05-115745
-Priority: extra
-Section: default
-Maintainer: NAV / nais team
-Installed-Size: 35368
-Depends: jq, sed, wireguard, libnss3-tools, openssl, libayatana-appindicator3-1
-Filename: ./naisdevice-2023-01-05-115745.deb
-Size: 13876806
-MD5sum: 7ec37984dffa5479ee76a15745ba4666
-SHA1: ddec6c351ff625370dd2d4ac63313ce18a3b64a8
-SHA256: f95ae301b5464701bad3ff29a5ef91b33c2df870117226d281e4426420c8848a
-SHA512: b66642aed93014f537ed095c27c5da436d8780c6764d94727dcaf0ec3fc4de464a521c0e72beb7bf841058a25fb2c82d2e125126a99e5486dd999e6129753a46
-Homepage: https://doc.nais.io/device
-Description: naisdevice is a mechanism enabling NAVs developers to connect to internal resources in a secure and friendly manner.
-License: unknown
-Vendor: NAV / nais team
-
-Package: naisdevice
-Architecture: amd64
 Version: 2023-01-23-153517
 Priority: extra
 Section: default
@@ -338,20 +319,20 @@ Description: naisdevice is a mechanism enabling NAVs developers to connect to in
 License: unknown
 Vendor: NAV / nais team
 
-Package: naisdevice-tenant
+Package: naisdevice
 Architecture: amd64
-Version: 2023-01-05-115745
-Priority: extra
+Version: 2023-07-31-153249
+Priority: optional
 Section: default
 Maintainer: NAV / nais team
-Installed-Size: 35368
+Installed-Size: 37228
 Depends: jq, sed, wireguard, libnss3-tools, openssl, libayatana-appindicator3-1
-Filename: ./naisdevice-tenant-2023-01-05-115745.deb
-Size: 13876218
-MD5sum: 340daaab1d4ad739881f4bc99e660ca0
-SHA1: 80fd10e212a9ae4614af859dfb021a4de910f78c
-SHA256: e20f9d5e74d97e0b2d4dee55b3ad4f4a43f3c9ef25c4618371f37c36b8398665
-SHA512: 9ebb566f462117d761ced90596b047d0da4d5e9d0e721173a0e66fbac02ede88111fa956612a9d5ee0478cc09ad1d53b4efd7a951f6078b508d50b915d9aea4a
+Filename: ./naisdevice-2023-07-31-153249.deb
+Size: 14530522
+MD5sum: 1e48d24682576e0b647777bb6ebd1986
+SHA1: 112b954646fdb08b14e8462d254c82bf522ea225
+SHA256: a1733f56fab5b4f8553dc4f2bdea1889e0fc1aaae8cd6c1b0f33a8264e2caf46
+SHA512: aa8835316dd15af1cb8e9d6494f1f0936a30932406e1bfb18df487426e84b30b4a000f82be783b4b2450019afce605dcc7e660b63302ea1c02a11186c6249027
 Homepage: https://doc.nais.io/device
 Description: naisdevice is a mechanism enabling NAVs developers to connect to internal resources in a secure and friendly manner.
 License: unknown
@@ -523,6 +504,25 @@ MD5sum: aded848248caa1cf1c493bfa095e1fb0
 SHA1: 8745a4539470f2cba335a108c15a22ecf93d5d46
 SHA256: 0e1c52497fa830bb9fed0e4777161978c68d24fc539751f7e3d3a4498467a6ab
 SHA512: 2bfcba766513b568dc64a18460001beafef2d385f4634098184b40ec2cc9a3e04ceacd5af6df114508b7b6a7c4f46bad7a610fb8adb8cac4f98372e9ddfcdc06
+Homepage: https://doc.nais.io/device
+Description: naisdevice is a mechanism enabling NAVs developers to connect to internal resources in a secure and friendly manner.
+License: unknown
+Vendor: NAV / nais team
+
+Package: naisdevice-tenant
+Architecture: amd64
+Version: 2023-07-31-153249
+Priority: optional
+Section: default
+Maintainer: NAV / nais team
+Installed-Size: 37228
+Depends: jq, sed, wireguard, libnss3-tools, openssl, libayatana-appindicator3-1
+Filename: ./naisdevice-tenant-2023-07-31-153249.deb
+Size: 14530462
+MD5sum: 06d7f25427bedf0900fd48db535cf384
+SHA1: fffe27ba2990b48bb9a20f6582ca46ab117b6a2b
+SHA256: 00a30ba252e89b8e06c78133e9ca3a0696607813bc88fb72c01737409d9de34a
+SHA512: 0a7bef9c104bd9deddab14b2e805fca5bf8d7ffec5b3d37da7c9bc65704b89e6a607de6842496234a77e2542007f36424e39b4dd37e5b8683bb111451851e690
 Homepage: https://doc.nais.io/device
 Description: naisdevice is a mechanism enabling NAVs developers to connect to internal resources in a secure and friendly manner.
 License: unknown
